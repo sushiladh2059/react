@@ -1,5 +1,5 @@
 import Home from "./Pages/Home";
-import About from "./Pages/About";
+import About from "../Pages/About";
 import Navbar from "./components/Navbar";
 import SingleTweet from "./Pages/SingleTweet";
 import "./App.css";

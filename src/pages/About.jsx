@@ -1,8 +1,13 @@
 const About = () => {
     return (
-        <h2> Lorem Ipsum</h2>
+      <>
+        <h1>About</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+          quibusdam.
+        </p>
+      </>
     );
   };
   
   export default About;
-  
