@@ -1,10 +1,9 @@
-import Home from "./Home";
-import About from "./About";
-import "../App.css";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Navbar from "./components/Navbar";
+import SingleTweet from "./Pages/SingleTweet";
+import "./App.css";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import Navbar from "./Navbar";
-
-
 const Shell = () => {
   return (
     <>
@@ -13,6 +12,7 @@ const Shell = () => {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/tweet/:id" element={<SingleTweet />} />
         </Routes>
       </BrowserRouter>
     </>

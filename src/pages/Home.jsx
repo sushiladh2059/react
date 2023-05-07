@@ -4,7 +4,7 @@ import Tweet from "../components/Tweet";
 import axios from "axios";
 
 import CreateTweet from "../components/CreateTweet";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   const [tweets, setTweets] = useState([]);
