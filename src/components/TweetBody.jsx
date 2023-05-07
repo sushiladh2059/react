@@ -1,8 +1,13 @@
-const TweetBody = ({ content, image }) => {
+const TweetBody = ({ imagesrc, content }) => {
   return (
     <>
       <p className="tweet-text">{content}</p>
-      <img src={image} alt="Tweet Image" height={300} width={400} />
+      <img
+        className="tweet-image"
+        src={imagesrc}
+        alt="Tweet Image"
+        width={350}
+      />
     </>
   );
 };

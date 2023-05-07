@@ -8,7 +8,7 @@ const Tweet = ({ name, username, content, image, avatar }) => {
       <img src={avatar} alt={name} height={50} width={50} />
       <div className="tweet-content">
         <Header name={name} username={username} />
-        <TweetBody content={content} image={image} />
+        <TweetBody content={content} imagesrc={image} />
         <Footer />
       </div>
     </div>
